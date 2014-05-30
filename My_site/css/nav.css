@@ -1,0 +1,11 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.btn-primary.btn-shadow{-webkit-box-shadow:inset 0 -4px 0 #2a6496;box-shadow:inset 0 -4px 0 #2a6496;border:0}
+.btn-lg.btn-shadow{padding:13px 35px 17px}

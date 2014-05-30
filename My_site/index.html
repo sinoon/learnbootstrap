@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang    ="zh-CN">
+<head>
+  <meta charset ="UTF-8">
+  <title>My site  -   我的主页</title>
+  <meta name = "viewport" content="widh=device-widh,initial-scale=1.0">
+  <link rel ="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/nav.css">
+
+  <script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class ="navbar navbar-default " role="nvaigation">
+      <div class ="navbar-header">       
+       <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">导航栏</span>
+        <span class ="icon-bar"></span>
+        <span class ="icon-bar"></span>
+        <span class ="icon-bar"></span>
+      </button>
+      <a class = "navbar-brand" href="#">My site</a>
+    </div>
+    <div class = "navbar-collapse collapse">
+      <ul class = "nav navbar-nav">
+        <li class ="active"><a href="#">首页</a></li>
+        <li><a href ="assignment.html">作业</a></li>
+        <li><a href="story_of_online_game.html">游戏那点事儿</a></li>
+        <li><a href ="about.html">说明</a></li>
+      </ul>
+              <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="./login.html">登录</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#myModal">注册</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+  <!--  -->
+  <div class ="jumbotron">
+    <h1>欢迎来到我的主页！</h1>
+    <p>这是我学习的第一个web前端开发框架——bootsrtap。</p>
+    <p><a href ="./assignment.html#first" class="btn btn-primary btn-large">了解更多 &raquo;</a></p>
+  </div>
+
+  <div class = "row">
+    <div class ="col-md-4">
+      <h2>第一周作业</h2>
+      <p>建立一个名为 index.html 的网页，使用任意背景，插入表格，输入相应内容。建立一个名为<code>学号.html</code> 的网页，在其中输入本人<code>学号</code>、<code>姓名</code>、<code>专业</code>、<code>班级等信息</code>。在IIS（或其他应用服务器）中发布（注意关闭Windows防火墙）或者使用其他工具
+      </p>
+      <p><a class ="btn" href="./assignment.html#first">更多 &raquo;</a>
+      </p>
+    </div>
+    <div class ="col-md-4">
+      <h2>第二周作业</h2>
+      <ul>
+        <li>执行命令，观察结果</li>
+        <li>将其中一个命令截图</li>
+        <li>使用LOGO设计软件设计一个网站LOGO，也插入到刚才的网页中</li>
+        <li>制作一个单元练习目录网页</li>
+        <li>制作<code> 1.html </code>的网页，将截图和LOGO插入其中</li>
+      </ul>
+      <p><a class ="btn" href="./assignment.html#second">更多 &raquo;</a></p>
+    </div>
+    <div class    ="col-md-4">
+      <h2>第三周作业</h2>
+      <p>介绍六尺巷的由来</p>
+      <p><a class ="btn" href="./assignment.html#third">更多 &raquo;</a></p>
+    </div>
+  </div>
+</div>
+ 
+
+<footer class ="modal-footer">
+  <p>&copy; Copyright 2013 浙江财经大学 商楠</p>
+</footer>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">今天是个好天气啊！</h4>
+      </div>
+      <div class="modal-body">
+        sorry，网站目前还木有发布，暂无注册功能。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">知道了！</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script scr   ="http://code.jquery.com/jquery.js"></script>
+<scritp scr   ="js/bootstrap.min.js"></scritp>
+</body>
+</html>
